@@ -50,13 +50,15 @@ namespace assignments
             //int intPrice = (int)price;
             #endregion
             #region question 7
-            string pagesText = "464";
-            int pagesInt = Convert.ToInt32(pagesText);
-            Console.WriteLine(pagesInt.GetType());
+            //string pagesText = "464";
+            //int pagesInt = Convert.ToInt32(pagesText);
+            //Console.WriteLine(pagesInt.GetType());
             #endregion
-            //#region question8
-
-            //#endregion
+            #region question8
+            string yearText = "2023";
+            int yearInt = int.Parse(yearText);
+            Console.WriteLine(yearInt);
+            #endregion
 
         }
     }
