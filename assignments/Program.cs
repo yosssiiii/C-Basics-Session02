@@ -72,13 +72,18 @@ namespace assignments
             //Console.WriteLine(pagesString.GetType());
             #endregion
             #region question 10
-            int copies = 100;
-            object boxedValue = copies;
-            Console.WriteLine(boxedValue);
-            int unboxedValue = (int)boxedValue;
-            Console.WriteLine(unboxedValue);
+            //int copies = 100;
+            //object boxedValue = copies;
+            //Console.WriteLine(boxedValue);
+            //int unboxedValue = (int)boxedValue;
+            //Console.WriteLine(unboxedValue);
             #endregion
-
+            #region question 11
+            int? year = null;
+            Console.WriteLine(year.HasValue);
+            year = 2026;
+            Console.WriteLine(year.Value);
+            #endregion
         }
     }
 
