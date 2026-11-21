@@ -8,11 +8,11 @@ namespace assignments
     {
         static void Main(string[] args)
         {
-            //question 1
+            #region question1
             Book book1 = new Book() { title = "loyality", pages = 250 };
             object obj = book1;
             Console.WriteLine(obj);
-            Console.WriteLine();
+            #endregion
 
         }
     }
