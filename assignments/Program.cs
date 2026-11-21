@@ -79,10 +79,14 @@ namespace assignments
             //Console.WriteLine(unboxedValue);
             #endregion
             #region question 11
-            int? year = null;
-            Console.WriteLine(year.HasValue);
-            year = 2026;
-            Console.WriteLine(year.Value);
+            //int? year = null;
+            //Console.WriteLine(year.HasValue);
+            //year = 2026;
+            //Console.WriteLine(year.Value);
+            #endregion
+            #region question 12
+            string? reviewer = null;
+            Console.WriteLine(reviewer == null);
             #endregion
         }
     }
