@@ -14,11 +14,16 @@ namespace assignments
             //Console.WriteLine(obj);
             #endregion
             #region question 2
-            Book book1 = new Book() { title = "loyality", pages = 250 };
-            Console.WriteLine(book1.ToString());
-            Console.WriteLine(book1.Equals(book1));
-            Console.WriteLine(book1.GetHashCode());
-            Console.WriteLine(book1.GetType());
+            //Book book1 = new Book() { title = "loyality", pages = 250 };
+            //Console.WriteLine(book1.ToString());
+            //Console.WriteLine(book1.Equals(book1));
+            //Console.WriteLine(book1.GetHashCode());
+            //Console.WriteLine(book1.GetType());
+            #endregion
+            #region question 3
+            //int pages = "464";   (compile-time error)
+            int pages = 464;   // after fixing it
+            Console.WriteLine(pages);
             #endregion
         }
     }
