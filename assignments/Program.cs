@@ -89,16 +89,22 @@ namespace assignments
             //Console.WriteLine(reviewer == null);
             #endregion
             #region question 13
-            Book? book = null;
-            string? title = book?.title;
+            //Book? book = null;
+            //string? title = book?.title;
             //Console.WriteLine(title); // null
             #endregion
             #region question 14
-            Console.WriteLine(title ?? "Untitled");
-            title ??= "Untitled";
-            Console.WriteLine(title);
+            //Console.WriteLine(title ?? "Untitled");
+            //title ??= "Untitled";
+            //Console.WriteLine(title);
+            #endregion
+            #region question 15
+            string? name = "Ahmed";
+            string confirmedName = name!;
+            Console.WriteLine(confirmedName);
             #endregion
         }
+
     }
 
 }
