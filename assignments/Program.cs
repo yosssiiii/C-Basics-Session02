@@ -41,11 +41,14 @@ namespace assignments
             //}
             #endregion
             #region question 5
-            int page = 300;
-            double doublePage = page;
-            Console.WriteLine(doublePage);
+            //int page = 300;
+            //double doublePage = page;
+            //Console.WriteLine(doublePage);
             #endregion
-
+            #region question 6
+            double price = 49.99;
+            int intPrice = (int)price;
+            #endregion
         }
     }
 
