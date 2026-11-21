@@ -66,10 +66,17 @@ namespace assignments
             //    Console.WriteLine("invalid number");
             #endregion
             #region question 9
-            Console.WriteLine();
-            int pages = 464;
-            string pagesString = pages.ToString();
-            Console.WriteLine(pagesString.GetType());
+            //Console.WriteLine();
+            //int pages = 464;
+            //string pagesString = pages.ToString();
+            //Console.WriteLine(pagesString.GetType());
+            #endregion
+            #region question 10
+            int copies = 100;
+            object boxedValue = copies;
+            Console.WriteLine(boxedValue);
+            int unboxedValue = (int)boxedValue;
+            Console.WriteLine(unboxedValue);
             #endregion
 
         }
