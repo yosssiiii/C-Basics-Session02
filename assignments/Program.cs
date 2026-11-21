@@ -46,9 +46,18 @@ namespace assignments
             //Console.WriteLine(doublePage);
             #endregion
             #region question 6
-            double price = 49.99;
-            int intPrice = (int)price;
+            //double price = 49.99;
+            //int intPrice = (int)price;
             #endregion
+            #region question 7
+            string pagesText = "464";
+            int pagesInt = Convert.ToInt32(pagesText);
+            Console.WriteLine(pagesInt.GetType());
+            #endregion
+            //#region question8
+
+            //#endregion
+
         }
     }
 
