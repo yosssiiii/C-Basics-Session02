@@ -85,8 +85,13 @@ namespace assignments
             //Console.WriteLine(year.Value);
             #endregion
             #region question 12
-            string? reviewer = null;
-            Console.WriteLine(reviewer == null);
+            //string? reviewer = null;
+            //Console.WriteLine(reviewer == null);
+            #endregion
+            #region question 13
+            Book? book = null;
+            string? title = book?.title; 
+            Console.WriteLine(title); // null
             #endregion
         }
     }
