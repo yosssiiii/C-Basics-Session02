@@ -26,19 +26,24 @@ namespace assignments
             //Console.WriteLine(pages);
             #endregion
             #region question 4
-            try{
-                int total_grade = 10;
-                int total_subject = 0;
-                Console.WriteLine(total_grade / total_subject);
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("can't divide by zero");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
+            //try{
+            //    int total_grade = 10;
+            //    int total_subject = 0;
+            //    Console.WriteLine(total_grade / total_subject);
+            //}
+            //catch (Exception)
+            //{
+            //    Console.WriteLine("can't divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
+            #endregion
+            #region question 5
+            int page = 300;
+            double doublePage = page;
+            Console.WriteLine(doublePage);
             #endregion
 
         }
