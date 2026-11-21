@@ -9,10 +9,10 @@ namespace assignments
         public string title;
         public int pages;
 
-        public override string ToString()
-        {
+        //public override string ToString()
+        //{
 
-            return $"the title is  {title} and the pages are {pages}";
-        }
+        //    return $"the title is  {title} and the pages are {pages}";
+        //}
     }
 }
