@@ -90,8 +90,13 @@ namespace assignments
             #endregion
             #region question 13
             Book? book = null;
-            string? title = book?.title; 
-            Console.WriteLine(title); // null
+            string? title = book?.title;
+            //Console.WriteLine(title); // null
+            #endregion
+            #region question 14
+            Console.WriteLine(title ?? "Untitled");
+            title ??= "Untitled";
+            Console.WriteLine(title);
             #endregion
         }
     }
