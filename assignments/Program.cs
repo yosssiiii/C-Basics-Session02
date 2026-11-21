@@ -55,19 +55,22 @@ namespace assignments
             //Console.WriteLine(pagesInt.GetType());
             #endregion
             #region question8
-            string yearText = "2023";
-            int yearInt = int.Parse(yearText);
-            Console.WriteLine(yearInt);
-            Console.WriteLine();
-            string badText = "abc";
-            if (int.TryParse(badText, out int truetext))
-                Console.WriteLine($"the number converted successfully and the value : {truetext}");
-            else
-                Console.WriteLine("invalid number");
+            //string yearText = "2023";
+            //int yearInt = int.Parse(yearText);
+            //Console.WriteLine(yearInt);
+            //Console.WriteLine();
+            //string badText = "abc";
+            //if (int.TryParse(badText, out int truetext))
+            //    Console.WriteLine($"the number converted successfully and the value : {truetext}");
+            //else
+            //    Console.WriteLine("invalid number");
             #endregion
-            //#region question 9
-
-            //#endregion
+            #region question 9
+            Console.WriteLine();
+            int pages = 464;
+            string pagesString = pages.ToString();
+            Console.WriteLine(pagesString.GetType());
+            #endregion
 
         }
     }
