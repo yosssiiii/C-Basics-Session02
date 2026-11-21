@@ -58,7 +58,16 @@ namespace assignments
             string yearText = "2023";
             int yearInt = int.Parse(yearText);
             Console.WriteLine(yearInt);
+            Console.WriteLine();
+            string badText = "abc";
+            if (int.TryParse(badText, out int truetext))
+                Console.WriteLine($"the number converted successfully and the value : {truetext}");
+            else
+                Console.WriteLine("invalid number");
             #endregion
+            //#region question 9
+
+            //#endregion
 
         }
     }
