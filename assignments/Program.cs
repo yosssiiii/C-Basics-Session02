@@ -21,10 +21,26 @@ namespace assignments
             //Console.WriteLine(book1.GetType());
             #endregion
             #region question 3
-            //int pages = "464";   (compile-time error)
-            int pages = 464;   // after fixing it
-            Console.WriteLine(pages);
+            ////int pages = "464";   (compile-time error)
+            //int pages = 464;   // after fixing it
+            //Console.WriteLine(pages);
             #endregion
+            #region question 4
+            try{
+                int total_grade = 10;
+                int total_subject = 0;
+                Console.WriteLine(total_grade / total_subject);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("can't divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+            #endregion
+
         }
     }
 
